@@ -1,0 +1,229 @@
+# JMH 1.17.4 (released 166 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: benchmark.ComplexGrokPatternBenchmark.testElasticsearchGrokProcessorSimpleMatch
+
+# Run progress: 0,00% complete, ETA 00:00:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 40602,084 ops/s
+# Warmup Iteration   2: 55286,756 ops/s
+# Warmup Iteration   3: 57188,358 ops/s
+Iteration   1: 58411,535 ops/s
+Iteration   2: 57878,222 ops/s
+Iteration   3: 57673,612 ops/s
+
+
+Result "benchmark.ComplexGrokPatternBenchmark.testElasticsearchGrokProcessorSimpleMatch":
+  57987,790 ±(99.9%) 6950,269 ops/s [Average]
+  (min, avg, max) = (57673,612, 57987,790, 58411,535), stdev = 380,968
+  CI (99.9%): [51037,521, 64938,058] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 166 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: benchmark.ComplexGrokPatternBenchmark.testTheKrakkenGrokSimpleMatch
+
+# Run progress: 12,50% complete, ETA 00:00:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 20219,053 ops/s
+# Warmup Iteration   2: 22650,856 ops/s
+# Warmup Iteration   3: 24727,654 ops/s
+Iteration   1: 24466,972 ops/s
+Iteration   2: 24532,066 ops/s
+Iteration   3: 21939,803 ops/s
+
+
+Result "benchmark.ComplexGrokPatternBenchmark.testTheKrakkenGrokSimpleMatch":
+  23646,280 ±(99.9%) 26968,072 ops/s [Average]
+  (min, avg, max) = (21939,803, 23646,280, 24532,066), stdev = 1478,211
+  CI (99.9%): [≈ 0, 50614,352] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 166 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: benchmark.GreedyGrokPatternBenchmark.testElasticsearchGrokProcessorGreedyMatch
+
+# Run progress: 25,00% complete, ETA 00:00:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 8952,797 ops/s
+# Warmup Iteration   2: 11044,613 ops/s
+# Warmup Iteration   3: 12284,543 ops/s
+Iteration   1: 12287,738 ops/s
+Iteration   2: 11722,167 ops/s
+Iteration   3: 11244,862 ops/s
+
+
+Result "benchmark.GreedyGrokPatternBenchmark.testElasticsearchGrokProcessorGreedyMatch":
+  11751,589 ±(99.9%) 9524,325 ops/s [Average]
+  (min, avg, max) = (11244,862, 11751,589, 12287,738), stdev = 522,060
+  CI (99.9%): [2227,264, 21275,914] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 166 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: benchmark.GreedyGrokPatternBenchmark.testTheKrakkenGrokGreedyMatch
+
+# Run progress: 37,50% complete, ETA 00:00:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 7048,097 ops/s
+# Warmup Iteration   2: 7460,471 ops/s
+# Warmup Iteration   3: 7694,092 ops/s
+Iteration   1: 7403,792 ops/s
+Iteration   2: 7227,137 ops/s
+Iteration   3: 7403,101 ops/s
+
+
+Result "benchmark.GreedyGrokPatternBenchmark.testTheKrakkenGrokGreedyMatch":
+  7344,677 ±(99.9%) 1857,085 ops/s [Average]
+  (min, avg, max) = (7227,137, 7344,677, 7403,792), stdev = 101,793
+  CI (99.9%): [5487,592, 9201,762] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 166 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: benchmark.SimpleGrokPatternBenchmark.testElasticsearchGrokProcessorSimpleMatch
+
+# Run progress: 50,00% complete, ETA 00:00:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 753042,700 ops/s
+# Warmup Iteration   2: 835751,765 ops/s
+# Warmup Iteration   3: 1014028,943 ops/s
+Iteration   1: 1037218,243 ops/s
+Iteration   2: 1023816,078 ops/s
+Iteration   3: 1045012,498 ops/s
+
+
+Result "benchmark.SimpleGrokPatternBenchmark.testElasticsearchGrokProcessorSimpleMatch":
+  1035348,939 ±(99.9%) 195593,451 ops/s [Average]
+  (min, avg, max) = (1023816,078, 1035348,939, 1045012,498), stdev = 10721,137
+  CI (99.9%): [839755,488, 1230942,391] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 166 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: benchmark.SimpleGrokPatternBenchmark.testTheKrakkenGrokSimpleMatch
+
+# Run progress: 62,50% complete, ETA 00:00:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 255600,763 ops/s
+# Warmup Iteration   2: 347532,390 ops/s
+# Warmup Iteration   3: 366987,280 ops/s
+Iteration   1: 386827,204 ops/s
+Iteration   2: 393474,741 ops/s
+Iteration   3: 391862,969 ops/s
+
+
+Result "benchmark.SimpleGrokPatternBenchmark.testTheKrakkenGrokSimpleMatch":
+  390721,638 ±(99.9%) 63262,369 ops/s [Average]
+  (min, avg, max) = (386827,204, 390721,638, 393474,741), stdev = 3467,624
+  CI (99.9%): [327459,269, 453984,007] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 166 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: benchmark.SimpleTypedGrokPatternBenchmark.testElasticsearchGrokProcessorSimpleTypedMatch
+
+# Run progress: 75,00% complete, ETA 00:00:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 704264,047 ops/s
+# Warmup Iteration   2: 937572,566 ops/s
+# Warmup Iteration   3: 1008320,990 ops/s
+Iteration   1: 980123,732 ops/s
+Iteration   2: 1004621,922 ops/s
+Iteration   3: 978338,985 ops/s
+
+
+Result "benchmark.SimpleTypedGrokPatternBenchmark.testElasticsearchGrokProcessorSimpleTypedMatch":
+  987694,879 ±(99.9%) 267934,335 ops/s [Average]
+  (min, avg, max) = (978338,985, 987694,879, 1004621,922), stdev = 14686,385
+  CI (99.9%): [719760,545, 1255629,214] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 166 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: benchmark.SimpleTypedGrokPatternBenchmark.testTheKrakkenGrokSimpleTypedMatch
+
+# Run progress: 87,50% complete, ETA 00:00:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 213617,266 ops/s
+# Warmup Iteration   2: 320680,111 ops/s
+# Warmup Iteration   3: 341570,091 ops/s
+Iteration   1: 367528,355 ops/s
+Iteration   2: 365327,676 ops/s
+Iteration   3: 355641,888 ops/s
+
+
+Result "benchmark.SimpleTypedGrokPatternBenchmark.testTheKrakkenGrokSimpleTypedMatch":
+  362832,640 ±(99.9%) 115370,352 ops/s [Average]
+  (min, avg, max) = (355641,888, 362832,640, 367528,355), stdev = 6323,838
+  CI (99.9%): [247462,288, 478202,992] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:53
+
+Benchmark                                                                        Mode  Cnt        Score        Error  Units
+ComplexGrokPatternBenchmark.testElasticsearchGrokProcessorSimpleMatch           thrpt    3    57987,790 ±   6950,269  ops/s
+ComplexGrokPatternBenchmark.testTheKrakkenGrokSimpleMatch                       thrpt    3    23646,280 ±  26968,072  ops/s
+GreedyGrokPatternBenchmark.testElasticsearchGrokProcessorGreedyMatch            thrpt    3    11751,589 ±   9524,325  ops/s
+GreedyGrokPatternBenchmark.testTheKrakkenGrokGreedyMatch                        thrpt    3     7344,677 ±   1857,085  ops/s
+SimpleGrokPatternBenchmark.testElasticsearchGrokProcessorSimpleMatch            thrpt    3  1035348,939 ± 195593,451  ops/s
+SimpleGrokPatternBenchmark.testTheKrakkenGrokSimpleMatch                        thrpt    3   390721,638 ±  63262,369  ops/s
+SimpleTypedGrokPatternBenchmark.testElasticsearchGrokProcessorSimpleTypedMatch  thrpt    3   987694,879 ± 267934,335  ops/s
+SimpleTypedGrokPatternBenchmark.testTheKrakkenGrokSimpleTypedMatch              thrpt    3   362832,640 ± 115370,352  ops/s
+
+Benchmark result is saved to /Users/joschi/src/grok-benchmarks/build/reports/jmh/results.json

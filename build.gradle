@@ -1,0 +1,48 @@
+plugins {
+    id "me.champeau.gradle.jmh" version "0.4.3"
+    id "io.morethan.jmhreport" version "0.4.1"
+}
+
+repositories {
+    jcenter()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    jmh 'io.thekraken:grok:0.1.5'
+    jmh 'org.elasticsearch:elasticsearch:5.4.2'
+    jmh 'org.codelibs.elasticsearch.module:ingest-common:5.4.2'
+    jmh 'org.assertj:assertj-core:3.8.0'
+}
+
+jmh {
+    iterations = 3
+    // benchmarkMode = ['thrpt','avgt']
+    // batchSize = 1 // Batch size: number of benchmark method calls per operation. (some benchmark modes can ignore this setting)
+    fork = 1 // How many times to forks a single benchmark. Use 0 to disable forking altogether
+    failOnError = false
+    // forceGC = false // Should JMH force GC between iterations?
+    humanOutputFile = project.file("${project.buildDir}/reports/jmh/human.txt") // human-readable output file
+    resultsFile = project.file("${project.buildDir}/reports/jmh/results.json") // results file
+    // operationsPerInvocation = 3
+    // timeOnIteration = '1s' // Time to spend at each measurement iteration.
+    resultFormat = 'JSON' // Result format type (one of CSV, JSON, NONE, SCSV, TEXT)
+    // synchronizeIterations = false // Synchronize iterations?
+    // threads = 4 // Number of worker threads to run with.
+    // threadGroups = [2,3,4] //Override thread group distribution for asymmetric benchmarks.
+    // timeout = '1s' // Timeout for benchmark iteration.
+    // timeUnit = 'ms' // Output time unit. Available time units are: [m, s, ms, us, ns].
+    // verbosity = 'NORMAL' // Verbosity mode. Available modes are: [SILENT, NORMAL, EXTRA]
+    // warmup = '1s' // Time to spend at each warmup iteration.
+    // warmupBatchSize = 3
+    // warmupForks = 0 // How many warmup forks to make for a single benchmark. 0 to disable warmup forks.
+    warmupIterations = 3 // Number of warmup iterations to do.
+}
+
+jmhReport {
+    jmhResultPath = project.file("${project.buildDir}/reports/jmh/results.json")
+    jmhReportOutput = project.file('build/reports/jmh')
+}
+tasks.jmh.finalizedBy tasks.jmhReport
